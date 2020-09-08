@@ -1,0 +1,23 @@
+button {
+    margin-left: 5px;
+
+    &.finish,
+    &.remove {
+        float: right;
+        padding: 0 5px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    &.remove {
+        color: #fff;
+        background-color: #dc3545;
+        margin-left: 5px;
+    }
+
+    &.finish {
+        color: #fff;
+        background-color: #28a745;
+    }
+
+}

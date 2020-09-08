@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@media only screen and (max-width: 767px) {
+  .sm {
+    margin-top: 20px;
+  }
+}
+
+nav .container h1 {
+  color: white;
+}
+
+nav.navbar h1 {
+  font-size: 22px;
+}
+
+footer p {
+  text-align: center;
+}
+
+.plan-list p {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: #343A40;
+  color: white;
+  word-wrap: break-word;
+  text-align: left;
+}
+
+button {
+  margin-left: 5px;
+}
+
+button.finish, button.remove {
+  float: right;
+  padding: 0 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+button.remove {
+  color: #fff;
+  background-color: #dc3545;
+  margin-left: 5px;
+}
+
+button.finish {
+  color: #fff;
+  background-color: #28a745;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
